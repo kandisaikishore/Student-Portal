@@ -1,5 +1,18 @@
 # Student Portal
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/Student-Portal) [![Issues](https://img.shields.io/github/issues/saikishore2410/Student-Portal)](https://github.com/saikishore2410/Student-Portal/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/Student-Portal)](https://github.com/saikishore2410/Student-Portal/commits/main)
+
+> A student-focused application starter intended to organize student-facing workflows.
+
+## At a glance
+
+- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
+- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
+- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
+- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
+
+
+
 A student-focused application starter intended to organize student-facing workflows.
 
 ## Project overview
