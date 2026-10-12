@@ -1,50 +1,32 @@
 # Student Portal
 
-**A student-focused application starter intended to organize student-facing workflows.**
+A student-focused application starter intended to organize student-facing workflows.
 
-## Overview
+## Project overview
 
-This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.
+This repository contains application source for a student-oriented user experience. Confirm the implemented roles, learning or administration workflows, and data storage behaviour in the actual code before relying on them.
 
-## Highlights
-
-- Student-oriented application UI
-- Local development with npm
-- Environment-based setup for services implemented by the project
-
-## Technology
-
-Node.js · npm · see package.json for frameworks
-
-## Quick start
-
-Prerequisite: a compatible Node.js installation. From a terminal:
+## Getting started
 
 ```bash
- git clone https://github.com/saikishore2410/Student-Portal.git
- cd Student-Portal
- npm install
-# Add required environment variables to .env.local
-npm run dev
+git clone https://github.com/saikishore2410/Student-Portal.git
+cd Student-Portal
+npm install
 ```
 
-Configure environment variables locally before launching the app. Use the variable names expected by the current source code, and keep real credentials out of version control.
+Configure any environment variables required by the implementation and start the app using the scripts in `package.json`.
 
-## Build and validation
+## Quality checklist
 
-```bash
-npm run build
-```
+- Validate required fields and error states
+- Protect student information with appropriate access controls
+- Document whether data is mock, local, or persisted by a backend
+- Check responsive layouts and accessibility
+- Add tests for key workflows and permissions
 
-Run any test or lint scripts defined in `package.json`. Review the source and deployment configuration before treating the application as production-ready.
+## Contributions
 
-## Configuration and limitations
-
-Confirm roles, data storage, and exact student workflows in source before describing them as implemented.
-
-## Contributing
-
-Issues and focused pull requests are welcome. Include reproduction steps for bugs and describe the validation performed for changes.
+Bug reports should include reproduction steps. Pull requests should describe the workflow changed and the validation performed.
 
 ## License
 
